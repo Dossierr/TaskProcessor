@@ -17,4 +17,4 @@ EXPOSE 8080
 ENV REDIS_URL redis://localhost:6379
 
 # Run script.py when the container launches
-CMD ["python", "worker.py"]
+CMD ["rq", "worker". "-c", "settings"]
