@@ -10,11 +10,7 @@ COPY . /app
 # Install any needed packages specified in requirements.txt
 RUN pip install redis rq
 
-# Make port 80 available to the world outside this container
 EXPOSE 8080
 
-# Define environment variable
-ENV REDIS_URL redis://localhost:6379
-
 # Run script.py when the container launches
-CMD ["rq", "worker". "-c", "settings"]
+CMD ["python", "worker.py"]
