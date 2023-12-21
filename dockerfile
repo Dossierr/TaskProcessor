@@ -13,4 +13,4 @@ RUN pip install redis rq
 EXPOSE 8080
 
 # Run script.py when the container launches
-CMD ["python", "worker.py"]
+CMD ["rq", "worker", "high", "default", "low"]
