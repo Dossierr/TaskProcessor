@@ -1,2 +1,4 @@
 rq
 redis
+python-environ
+subprocess
