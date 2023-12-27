@@ -7,7 +7,7 @@ def bill_tokens(user_ref, tokens_used):
     timestamp=int(time.time())
    
     # Replace SUBSCRIPTION_ITEM_ID with the actual subscription item ID
-    subscription_item_id = "si_PGH2ArRhXRWMPW"
+    subscription_item_id = "si_PGHa9WvhqEQdHV"
 
     # Replace sk_test_... with your actual Stripe secret key
     stripe_secret_key = "sk_test_51ORKYaKwogVwbigBrvXVm19oAHbDxpytJk5JFaRzUj1VeuD8BZLTNwfDTkqMJWCPWnkH7EnMGxgKjIpfQ5gFEuXb009mAX7kKC"
