@@ -1,7 +1,7 @@
 import redis
 from rq import Queue, Connection, Worker
 import environ
-from main import background_task
+from tasks.billing import bill_tokens
 import time
 import os
 
